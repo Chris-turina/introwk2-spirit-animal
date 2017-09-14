@@ -14,8 +14,10 @@ $(document).ready(function(){
   var numberTwo = $(".number-2").val();
   var numberThree = $(".number-3").val();
 
-  if (gender === male) {
+  if (gender === "male") {
     if (colors === colorR && numbers === numberOne){
+      $("#rogan").show();
+      
     }
   }
 
